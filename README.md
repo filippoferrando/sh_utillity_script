@@ -1,1 +1,1 @@
-# sh_utillity_script
+# linux script for system automation

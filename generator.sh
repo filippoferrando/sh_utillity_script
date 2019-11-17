@@ -1,7 +1,7 @@
 #!/bin/bash
 MATRICE="!$%&/()=?^ì'+èùàò-.,;:_ç°§é*@#]\|<>£0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 # ==> La password viene formata con caratteri alfanumerici.
-LUNGHEZZA="10000"
+LUNGHEZZA="8"
 # ==> Se desiderate passaword più lunghe modificate 'LUNGHEZZA'.
 
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-# man2pdf was written by matrobriva (http://matrobriva.altervista.org, matrobriva@libero.it).
+# man2pdf 
 
 ps2pdffile="`which ps2pdf 2> /dev/null`"
 

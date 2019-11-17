@@ -1,14 +1,5 @@
 #!/bin/bash
-#!/bin/bash
 # Shell script to collect HW information
-# For more info please see (Installation info):
-# http://www.spadamar.com
-# Last updated: May - 2013
-# --------------------------------------------------------------------
-# This is a free shell script under GNU GPL version 2.0 or above
-# Copyright (C) 2013 Mario Spada
-# Feedback/comment/suggestions : http://www.spadamar.com
-# --------------------------------------------------------------------
  
 if ! type "dmidecode" > /dev/null 2>&1; then
 	echo "dmidecode non è installato!"

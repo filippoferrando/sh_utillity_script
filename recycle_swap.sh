@@ -1,5 +1,4 @@
 #!/bin/sh
-# Alexis Megas, 2015.
 # Recycle swap if there is sufficient physical memory.
 
 myid=`id -u 2> /dev/null`

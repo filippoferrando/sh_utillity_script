@@ -14,7 +14,7 @@ sleep 1s
 
 clear
 
-echo -e "\e[32mUpdating-Complete!"
+echo -e "Updating-Complete!"
 
 sleep 5s
 

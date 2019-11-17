@@ -1,13 +1,5 @@
 #!/bin/sh
-# Alexis Megas, 2005.
-# Alexis Megas, 02/24/2007. Removed clear call.
-# Alexis Megas, 07/04/2007. Direct errors to /dev/null.
-# A script that allows the superuser to CONTINUE or STOP another
-# user's processes. The script executes in interactive or
-# non-interactive modes.
 
-# stop_user_processes.sh [-f] -c -u userid (CONTINUE)
-# stop_user_processes.sh [-f] -s -u userid (STOP)
 
 force=0
 usage="usage: stop_user_processes.sh -c|-s -u USERID [-f(orce)]"

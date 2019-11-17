@@ -1,5 +1,5 @@
 #! /bin/bash
-
+#change interface with yours
 ifconfig wlp3s0 down
 
 macchanger --permanent wlp3s0
@@ -8,6 +8,6 @@ ifconfig wlp3s0 up
 
 ifconfig wlp3s0
 
-echo -e "\e[1mMac Restore Succeful!"
+echo -e "Mac Restore Succeful!"
 
 exit

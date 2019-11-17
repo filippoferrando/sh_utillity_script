@@ -14,7 +14,7 @@ sleep 1s
 
 clear
 
-echo -e "\e[32mCleaning-Complete!"
+echo -e "Cleaning-Complete!"
 
 sleep 5s
 

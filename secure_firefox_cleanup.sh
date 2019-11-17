@@ -1,27 +1,4 @@
 #!/bin/sh
-# Alexis Megas, 2005. Initial implementation.
-# Alexis Megas, 2006. Also search for the .mozilla directory.
-# Alexis Megas, 02/24/2007. Removed the clear call.
-# Alexis Megas, 06/27/2007. Added the urlclassifier2.sqlite file.
-# Alexis Megas, 07/04/2007. Direct errors to /dev/null.
-# Alexis Megas, 07/16/2007. Updated for OS X 10.4.10.
-# Alexis Megas, 07/20/2007. Resolved an accidental issue.
-# Alexis Megas, 08/21/2007. Added additional files to delete.
-#                           Directing more errors to /dev/null.
-# Alexis Megas, 02/20/2008. Changed SCRIPTS101_DIR to SHUTS_DIR.
-# Alexis Megas, 09/07/2008. Changed urlclassifier2.sqlite to
-#                           urlclassifier*.sqlite.
-# Alexis Megas, 09/24/2008. Added more files.
-# Alexis Megas, 10/08/2008. The wipe command is now supported.
-# Alexis Megas, 10/24/2008. Changed sessionstore.js to sessionstore.*.
-# Alexis Megas, 04/21/2009. Added search.json and secmod.db.
-# Alexis Megas, 11/04/2010. Fixed empty answer.
-# Alexis Megas, 04/27/2012. Added -q to wipe.
-# Alexis Megas, 02/23/2014. Verify that files are readable.
-# An interactive script that allows the user to remove Firefox
-# files (cookies.txt, etc.).
-
-# Non-interactive?
 
 interactive=0
 firefox=""
